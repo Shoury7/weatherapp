@@ -18,10 +18,12 @@ export default function WeatherApp(){
         setInfo(result);
     }
     return (
-        <>
-        <h1>Weather App</h1>
+        <div>
+            <h1>Weather App</h1>
         <SearchBox handler={handler}></SearchBox>
         <InfoBox info={info}></InfoBox>
-        </>
+        </div>
+        
+        
     )
 }
