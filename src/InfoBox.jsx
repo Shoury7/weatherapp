@@ -17,7 +17,7 @@ export default function InfoBox({info}){
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {info.cityName}
+          {info.cityName.toUpperCase()}
         </Typography>
         <Typography variant="body2" color="text.secondary" component={"div"}>
             <p>Temperature = {info.temp}</p>
