@@ -1,4 +1,4 @@
-
+import "./index.css"
 import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
 import SearchBox from './SearchBox';
